@@ -1,0 +1,3 @@
+[console_scripts]
+hyper = hyper.cli:main
+
