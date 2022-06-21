@@ -24,7 +24,7 @@
 # UI及参数设计方法
 #### 注意：该ui基于pyqt5设计，如不能运行，可尝试使用pyside2，并在gui.py及main文件中修改import库的信息；即互换：import Pyside2 / import PyQt5
 
-1. 使用Qt Designer打开gui.ui文件，进行设计和参数初始化
+1. 使用Qt Designer打开gui.ui文件，进行设计和参数内置
 
 2. 使用pyUIC对设计好的gui.ui重新编译生成新的gui.py文件
 
