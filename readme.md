@@ -1,6 +1,11 @@
+# 代码仅供参考学习
+
 ### 匹配版本：恒境 1.6.9
 
 ## 使用步骤：
+
+### 选择填入数据，请把右侧内置的参数选为“无”
+
 1.下载安卓模拟器、恒境app、httpcanny，打开恒境app登录，并使用httpcanny抓取恒境app的包
 
 2.分析抓取的包可获取user_index、user_id、device_id、token，将这些一一填入软件的对于框内
@@ -14,3 +19,12 @@
 # 更新方法
 
 ### 使用httpcanny获取新版本app的请求头（header），分析其更新的新信息，并在代码上更新
+
+# UI及参数设计方法
+#### 注意：该ui基于pyqt5设计，如不能运行，可尝试使用pyside2，并在gui.py及main文件中修改import库的信息；即互换：import Pyside2 / import PyQt5
+
+1. 使用Qt Designer打开gui.ui文件，进行设计和参数初始化
+
+2. 使用pyUIC对设计好的gui.ui重新编译生成新的gui.py文件
+
+3. 需要什么，可在主程序中增加响应功能
